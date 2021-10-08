@@ -1,3 +1,5 @@
+"use strict"
+
 const jwt = require('jsonwebtoken')
 const response = require('../WebResponse')
 require('dotenv').config()
