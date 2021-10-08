@@ -1,6 +1,15 @@
 # fastify_clean_architecture
  - Clean Architecture For FastifyJS
- - With FastifyJS version 2.15.3, auth JWT, knex, mysql
+# Package
+ - FastifyJS 2.15.3
+ - bcrypt
+ - dotenv
+ - fastify-cors
+ - fastify-formbody
+ - jsonwebtoken
+ - knex
+ - mysql
+ - nodemon
 # Alur routes
  - index.js (folder root project)
  - routes.js (folder app/v1)
