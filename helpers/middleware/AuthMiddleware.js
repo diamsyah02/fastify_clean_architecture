@@ -9,7 +9,7 @@ async function AuthMiddleware(req, reply, done){
     if(token){
         jwt.verify(token, process.env.KEY, (err, decoded) => {
             if(err){
-                return reply.code(401).send(response(401, 'Token is not valid !'), null)
+                return reply.code(401).send(response(401, 'Token is not valid !', null))
             }else{
                 return true
             }
